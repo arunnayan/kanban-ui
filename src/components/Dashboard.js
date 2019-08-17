@@ -5,7 +5,9 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to the Dashboard</h1>
+        <h1 className="alert alert-primary" role="alert">
+          Welcome to the Dashboard
+        </h1>
         <ProjectItem />
         <ProjectItem />
         <ProjectItem />
